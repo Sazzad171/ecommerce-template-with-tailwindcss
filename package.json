@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.0"
   }
 }
