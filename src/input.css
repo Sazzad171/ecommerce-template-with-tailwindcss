@@ -16,3 +16,8 @@
         color: #E94560;
     }
 }
+
+/* custom css */
+.owl-theme .owl-nav [class*=owl-] {
+    top: 44%;
+}
