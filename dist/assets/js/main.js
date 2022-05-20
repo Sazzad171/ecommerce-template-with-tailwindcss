@@ -3,6 +3,11 @@ $("#dropdown").click(() => {
     $("#dropdownArea").toggle();
 });
 
+// header category toggle
+$("#categoryDropdown").click(() => {
+    $("#CategoryDropdownArea").toggle();
+});
+
 // owl carousel
 $('.banner-slider').owlCarousel({
     loop:true,
