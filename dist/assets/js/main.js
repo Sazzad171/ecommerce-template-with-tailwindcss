@@ -8,6 +8,12 @@ $("#categoryDropdown").click(() => {
     $("#CategoryDropdownArea").toggle();
 });
 
+// category toggle
+$("#category-toggle-btn").click((e) => {
+    e.preventDefault();
+    $("#toggle-category").toggle();
+});
+
 // owl carousel
 $('.banner-slider').owlCarousel({
     loop:true,
