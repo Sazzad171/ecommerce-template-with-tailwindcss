@@ -834,16 +834,16 @@ select {
   margin-bottom: 0.25rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
 
 .ml-5 {
   margin-left: 1.25rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
 }
 
 .ml-3 {
@@ -1045,10 +1045,6 @@ select {
 
 .border {
   border-width: 1px;
-}
-
-.border-t {
-  border-top-width: 1px;
 }
 
 .border-gray-300 {
@@ -1347,9 +1343,9 @@ select {
   color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
-.text-slate-400 {
+.text-slate-800 {
   --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
+  color: rgb(30 41 59 / var(--tw-text-opacity));
 }
 
 .text-indigo-600 {
@@ -1360,11 +1356,6 @@ select {
 .text-red-400 {
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
-}
-
-.text-slate-800 {
-  --tw-text-opacity: 1;
-  color: rgb(30 41 59 / var(--tw-text-opacity));
 }
 
 .line-through {
@@ -1592,16 +1583,16 @@ select {
     width: 33.333333%;
   }
 
+  .md\:w-5\/12 {
+    width: 41.666667%;
+  }
+
   .md\:w-3\/12 {
     width: 25%;
   }
 
   .md\:w-9\/12 {
     width: 75%;
-  }
-
-  .md\:w-5\/12 {
-    width: 41.666667%;
   }
 
   .md\:justify-end {
@@ -1634,16 +1625,16 @@ select {
     padding-bottom: 4rem;
   }
 
+  .md\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
   .md\:pt-12 {
     padding-top: 3rem;
   }
 
   .md\:pb-8 {
     padding-bottom: 2rem;
-  }
-
-  .md\:pt-10 {
-    padding-top: 2.5rem;
   }
 
   .md\:text-5xl {
