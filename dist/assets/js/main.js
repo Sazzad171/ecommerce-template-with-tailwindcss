@@ -72,3 +72,16 @@ $('.top-categories-slider').owlCarousel({
         }
     }
 });
+
+$('.product-img-slider').owlCarousel({
+    items:1,
+    loop:false,
+    center:true,
+    margin:10,
+    nav: false,
+    dots: false,
+    URLhashListener:true,
+    autoplayHoverPause:true,
+    startPosition: 'URLHash',
+    smartSpeed: 750
+});
