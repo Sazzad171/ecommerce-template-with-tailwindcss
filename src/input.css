@@ -21,3 +21,14 @@
 .owl-theme .owl-nav [class*=owl-] {
     top: 44%;
 }
+/* tab */
+.tab.active {
+    color: #E94560;
+    border-bottom: 2px solid #E94560;
+}
+.tab-content {
+    display: none;
+  }
+  .tab-content.active {
+    display: block;
+  }

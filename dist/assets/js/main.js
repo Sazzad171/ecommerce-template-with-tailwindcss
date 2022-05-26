@@ -85,3 +85,11 @@ $('.product-img-slider').owlCarousel({
     startPosition: 'URLHash',
     smartSpeed: 750
 });
+
+// tab
+$('.tab').on('click', function(evt) {
+    evt.preventDefault();
+    $(this).toggleClass('active');
+    var sel = this.getAttribute('data-toggle-target');
+    $('.tab-content').removeClass('active').filter(sel).addClass('active');
+});
